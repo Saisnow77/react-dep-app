@@ -8,7 +8,7 @@ export default function App() {
   useEffect(() => {
 
     axios
-      .get("http://localhost:6754/products")
+      .get("https://react-dep-app-gop1.onrender.com/products")
       .then((res) => {
         console.log(res.data);
         setData(res.data);
